@@ -1,0 +1,34 @@
+{
+    "name": "PM-permit_bot",
+    "description": "This bot enable PM permit in your Telegram account.",
+    "keywords": [
+        "Telethon",
+        "telegram",
+        "python",
+        "PMpermit"
+    ],
+    "repository": "https://github.com/kaif-00z/PM-permit_bot",
+    "stack": "container",
+    "env": {
+        "API_ID": {
+            "description": "You api id, from my.telegram.org or @ScrapperRoBot.",
+            "value": "", 
+        },
+        "API_HASH": {
+            "description": "You api hash, from my.telegram.org or @ScrapperRoBot.",
+            "value": "",
+        },
+        "SESSION": {
+            "description": "Your session string. Can be added now, or after deploy. (The bot will NOT work without a session string!!)",
+            "value": ""
+        },
+        "REDIS_URI": {
+            "description": "Redis endpoint URL, from redislabs.com",
+            "value": ""
+        },
+        "REDIS_PASSWORD": {
+            "description": "Redis endpoint password, from redislabs.com",
+            "value": ""
+        }
+    }
+}
