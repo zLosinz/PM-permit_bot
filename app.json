@@ -16,7 +16,7 @@
         },
         "API_HASH": {
             "description": "You api hash, from my.telegram.org or @ScrapperRoBot.",
-            "value": "",
+            "value": ""
         },
         "SESSION": {
             "description": "Your session string. Can be added now, or after deploy. (The bot will NOT work without a session string!!)",
